@@ -10,3 +10,9 @@ selected_noisy
 eventsData
 nohuman2
 nohuman2_noisy
+eventsData_test
+eventsData_train
+eventsData_val
+scripts/efficientb2.h5
+scripts/mobilenetV2.h5
+scripts/mobilenetV2_softmax.h5
