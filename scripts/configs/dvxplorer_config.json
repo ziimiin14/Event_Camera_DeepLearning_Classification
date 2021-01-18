@@ -14,5 +14,5 @@
     "extinput_generate_inject_on_rising_edge": false,
     "extinput_generate_inject_on_falling_edge": false,
     "usb_early_packet_delay": 8,
-    "bias_simple": "default"
+    "bias_simple": "very_low"
 }

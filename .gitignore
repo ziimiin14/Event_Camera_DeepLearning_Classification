@@ -9,4 +9,6 @@ events100_synthetic_eventFrame
 syntheticnoisy
 scripts/mobilenetV2_softmax_GM.h5
 scripts/mobilenetV2_softmax_GM_rescale.h5
-scripts/mobilenetV2_softmax_GM_rescale/
+scripts/mobilenetV2_softmax_GM_rescale
+events_synthetic_event_frame_1
+events_synthetic_event_frame_2
