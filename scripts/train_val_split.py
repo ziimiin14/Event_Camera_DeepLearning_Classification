@@ -28,17 +28,17 @@ def split_data(src,training,testing,split_size):
 
 
 
-src_cat = 'eventsData/training/mannequin'
-src_dog = 'eventsData/training/not_mannequin'
+src_class1 = 'events100_gaussianMapping/data_filtered/mannequin'
+src_class2 = 'events100_gaussianMapping/data_filtered/not_mannequin'
 
-training_cat_path = 'eventsData_train/mannequin'
-training_dog_path = 'eventsData_train/not_mannequin'
+training_class1_path = 'events100_gaussianMapping/data_filtered_final/training/mannequin'
+training_class2_path = 'events100_gaussianMapping/data_filtered_final/training/not_mannequin'
 
-testing_cat_path = 'eventsData_val/mannequin'
-testing_dog_path = 'eventsData_val/not_mannequin'
+testing_class1_path = 'events100_gaussianMapping/data_filtered_final/validation/mannequin'
+testing_class2_path = 'events100_gaussianMapping/data_filtered_final/validation/not_mannequin'
 
-split_size =.8
+split_size =.6
 
-split_data(src_cat,training_cat_path,testing_cat_path,split_size)
-split_data(src_dog,training_dog_path,testing_dog_path,split_size)
+split_data(src_class1,training_class1_path,testing_class1_path,split_size)
+split_data(src_class2,training_class2_path,testing_class2_path,split_size)
 

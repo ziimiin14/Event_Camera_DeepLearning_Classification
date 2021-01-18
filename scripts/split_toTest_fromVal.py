@@ -28,14 +28,14 @@ def split_data(val,test,split_size):
 
 
 
-val_cat_path = 'eventsData_val/mannequin'
-val_dog_path = 'eventsData_val/not_mannequin'
+val_class1_path = 'events100_gaussianMapping/data_filtered_final/validation/mannequin'
+val_class2_path = 'events100_gaussianMapping/data_filtered_final/validation/not_mannequin'
 
-testing_cat_path = 'eventsData_test/mannequin'
-testing_dog_path = 'eventsData_test/not_mannequin'
+testing_class1_path = 'events100_gaussianMapping/data_filtered_final/testing/mannequin'
+testing_class2_path = 'events100_gaussianMapping/data_filtered_final/testing/not_mannequin'
 
 split_size =.5
 
-split_data(val_cat_path,testing_cat_path,split_size)
-split_data(val_dog_path,testing_dog_path,split_size)
+split_data(val_class1_path,testing_class1_path,split_size)
+split_data(val_class2_path,testing_class2_path,split_size)
 

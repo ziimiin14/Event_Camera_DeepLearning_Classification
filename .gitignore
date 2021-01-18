@@ -5,3 +5,8 @@ video
 event_data_redgreen
 events100_gaussianMapping
 mannequin_notmannequin_rgb
+events100_synthetic_eventFrame
+syntheticnoisy
+scripts/mobilenetV2_softmax_GM.h5
+scripts/mobilenetV2_softmax_GM_rescale.h5
+scripts/mobilenetV2_softmax_GM_rescale/
