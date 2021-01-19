@@ -12,3 +12,7 @@ scripts/mobilenetV2_softmax_GM_rescale.h5
 scripts/mobilenetV2_softmax_GM_rescale
 events_synthetic_event_frame_1
 events_synthetic_event_frame_2
+EventsFrame_19012020
+scripts/ResNet50V2_softmax_Synthetic_Upscale_Frame.h5
+scripts/mobilnetV2_softmax_Synthetic_Upscale_Frame.h5
+scripts/resnet50V2_softmax_Synthetic_Upscale_Frame.h5
