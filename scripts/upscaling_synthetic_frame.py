@@ -35,11 +35,11 @@ def upscale_frame(src_path,des_path):
 
 
 
-src = os.path.join(os.curdir,'synthetic_event_frame_2')
-src_folder = os.path.join(src,'mannequin_pants_side')
+src = os.path.join(os.curdir,'EventsFrame_27012020')
+src_folder = os.path.join(src,'mannequin_back')
 
-des = os.path.join(os.curdir,'upscaled2_synthetic_event_frame_1')
-des_folder = os.path.join(des,'mannequin_side')
+des = os.path.join(os.curdir,'EventsFrame_27012020')
+des_folder = os.path.join(des,'mannequin_back_upscaled_2')
 
 upscale_frame(src_folder,des_folder)
 
