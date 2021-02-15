@@ -3,7 +3,7 @@ import random
 from shutil import copyfile, move
 
 def random_choose_img(src,des,length):
-    count = 16000
+    count = 0
     for y in src:    
         img = os.listdir(y)
         for i in range(37):
@@ -23,7 +23,15 @@ def random_choose_img(src,des,length):
 
 # src = ['EventsFrame_19012020/upscaled_data/upscaled2_synthetic_event_frame_1/mannequin/mannequin_front','EventsFrame_19012020/upscaled_data/upscaled2_synthetic_event_frame_1/mannequin/mannequin_side']
 
-src = ['EventsFrame_27012020/mannequin_back_upscaled_2','EventsFrame_27012020/mannequin_door_upscaled_2','EventsFrame_27012020/mannequin_workstation_upscaled_2']
-des = 'EventsFrame_27012020/random_chosen_mannequin_upscaled_2'
+src = ['ReconstructedFrame_15022021/raw_data/data_mannequin_backfar/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_backnear/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_frontfar/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_frontnear/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_sidefar_1/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_sidenear_1/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_sidefar_2/reconstruction',
+'ReconstructedFrame_15022021/raw_data/data_mannequin_sidenear_2/reconstruction']
 
-random_choose_img(src,des,30)
+des = 'ReconstructedFrame_15022021/randomly_chosen_data'
+
+random_choose_img(src,des,50)
